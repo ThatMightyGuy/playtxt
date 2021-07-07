@@ -4,6 +4,8 @@ YouTube audio stream player...
 
 Pretty useful, if you ask me.
 
+Currently only available for Linux, but probably would work on Windows with minimal modifications.
+
 ### Dependencies
 [pip] bs4 requests
 `pip install bs4 requests`
