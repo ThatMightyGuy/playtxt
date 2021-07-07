@@ -6,7 +6,7 @@ try:
     if args[1] == '--help' or args[1] == '-h':
         print('PlayTXT - YouTube audio stream player...')
         print('...that can only play songs from a text file with song names')
-        print('Usage: playtxt <file>')
+        print('Usage: playtxt.py <file>')
         print('-h or --help displays this message')
         print('File structure is just a list of song names, each on its separate line')
         print('Pretty much entirely made from this StackOverflow question')
@@ -35,7 +35,7 @@ for song_name in playlist:
     print('YouTube video name is')
     print(concatMusic1['content'])
     try:
-        subprocess.Popen('mpv ' + clip2 + " --no-video --loop=inf --input-ipc-server=/tmp/mpvsocket > ~/.playtxt/mpvoutput.txt", shell=True).wait()
+        subprocess.Popen('mpv ' + clip2 + " --no-video --input-ipc-server=/tmp/mpvsocket > ~/.playtxt/mpvoutput.txt", shell=True).wait()
     except subprocess.CalledProcessError:
         print('This program requires: mpv youtube-dl [pip] bs4 [pip] requests')
         print('If dependencies are met, something really wrong happened with mpv')
