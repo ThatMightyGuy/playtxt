@@ -21,7 +21,11 @@ For help, ~~scream~~ `playtxt.py -h` or `playtxt.py --help`
 It was cobbled together in an hour, from a StackOverflow question somebody asked.
 
 TODO:
+
 Play/pause/skip commands
+
 Volume control
+
 Save/resume exit states
+
 Looping
