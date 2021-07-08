@@ -23,6 +23,8 @@ For help, ~~scream~~ `playtxt.py -h` or `playtxt.py --help`
 
 It was cobbled together in an hour, from a StackOverflow question somebody asked.
 
+It basically was already pretty much done before me, but nobody made this, as far as I know, for some reason.
+
 TODO:
 
 Play/pause/skip commands
