@@ -40,3 +40,5 @@ for song_name in playlist:
         print('This program requires: mpv youtube-dl [pip] bs4 [pip] requests')
         print('If dependencies are met, something really wrong happened with mpv')
         exit()
+playlist.close()
+print('Playlist end reached. Shutting down')
