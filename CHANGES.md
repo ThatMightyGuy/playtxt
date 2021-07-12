@@ -4,7 +4,7 @@
 ## Version 1.0
 * Initial release
 
-## Version: 1.1
+## Version 1.1
 ### Changes ###
 * Changed command line syntax
 ### Features ###
