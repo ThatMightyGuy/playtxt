@@ -2,10 +2,11 @@
 ### Changes ###
 # * Changed command line syntax
 # * Cleaned up the code a bit. Perhaps, it actually became dirtier
-# I'm in a love-hate relationship with Python. I love how it works, how easy it is to
-# do something, but man, is it hard to understand what's going on here
+#   I'm in a love-hate relationship with Python. I love how it works, how easy it is to
+#   do something, but man, is it hard to understand what's going on here
 ### Features ###
 # * Added an ability to request a single song (-N / --name)
+# * You can now make comments in playlists by starting a line with "##"
 # * Now we actually handle ^C and count played songs
 
 import re, requests, subprocess, urllib.parse, urllib.request, sys
