@@ -17,11 +17,12 @@ Currently only available for Linux, but probably would work on Windows with mini
 ### Installation
 `sudo python setup.py install`
 
-Usage: `playtxt.py -F (--file) <file> - plays a playlist`
+### Usage
+`playtxt.py -F (--file) <file> - plays a playlist`
 
-Usage: `playtxt.py -N (--name) <song name> - plays a specific song`
+`playtxt.py -N (--name) <song name> - plays a specific song`
 
-Usage: `playtxt.py -C (--continue) - continue playing from a saved state`
+`playtxt.py -C (--continue) - continue playing from a saved state`
 
 For help, ~~scream~~ `playtxt.py -h (--help)`
 
