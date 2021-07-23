@@ -1,4 +1,16 @@
 # PlayTXT Changelog
+## Version 1.3
+### Fixes
+* Crashes are less common now
+### Changes
+* Optimizations were done
+* Code was cleaned up drastically
+### Hello, Reddit!
+* I posted this project on r/python as a Python beginner project, pretty cool
+
+## Version 1.2-limbo
+### Unreleased
+* It's documented there to justify the accidental version jump
 
 ## Version 1.11 (Hotfix)
 ### Fixes ###
