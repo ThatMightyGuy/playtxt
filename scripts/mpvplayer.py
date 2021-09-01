@@ -1,4 +1,4 @@
-import re, requests, urllib.parse, urllib.request, subprocess
+import re, requests, urllib.parse, urllib.request, subprocess, platform, os
 from bs4 import BeautifulSoup
 import playtxt
 
@@ -38,7 +38,10 @@ def playsong(song_name):
         print(clip2)
         print('YouTube video name is')
         print(concat_music1['content'])
-        subprocess.Popen('mpv ' + clip2 + " --no-video --input-ipc-server=/tmp/mpvsocket > ~/.playtxt/mpv.log", shell=True).wait()
+        if platform.system() == "Windows":
+            subprocess.Popen('mpv ' + clip2 + f" --no-video --input-ipc-server={os.getenv('TEMP')}/mpvsocket > {os.getenv('APPDATA')}/ThatMightyGuy/PlayTXT/mpv.log", shell=True).wait()
+        else:
+            subprocess.Popen('mpv ' + clip2 + " --no-video --input-ipc-server=/tmp/mpvsocket > ~/.playtxt/mpv.log", shell=True).wait()
     except KeyboardInterrupt:
         return 0
     return 1

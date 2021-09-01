@@ -1,4 +1,9 @@
 # PlayTXT Changelog
+
+## Version 1.31
+### Changes
+* Added Windows support
+
 ## Version 1.3
 ### Fixes
 * Crashes are less common now

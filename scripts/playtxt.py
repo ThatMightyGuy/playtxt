@@ -4,14 +4,17 @@
 # * Huge cleanup of the code was done.
 # * Removed half of the janky code
 
-import re, requests, subprocess, urllib.parse, urllib.request, sys, os
-from bs4 import BeautifulSoup
-import helpmsg, mpvplayer
+import sys, os, platform
+import helpmsg, mpvplayer, datafolder
 
 args = sys.argv
 
 global playtxt_path, songs, mode, line, path, playlist
-playtxt_path = os.getenv('HOME') + '/.playtxt/playtxt-state'
+datafolder.check_data_dirs()
+if platform.system() == "Windows":
+    playtxt_path = os.getenv('APPDATA') + '/ThatMightyGuy/PlayTXT/playtxt-state'
+else:
+    playtxt_path = os.getenv('HOME') + '/.playtxt/playtxt-state'
 songs = 0
 mode = 0
 line = 0
