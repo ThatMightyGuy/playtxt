@@ -19,7 +19,9 @@ Currently only available for Linux, but probably would work on Windows with mini
 [scoop] youtube-dl extras/mpv
 
 `scoop install git youtube-dl
+
 scoop bucket add extras
+
 scoop install mpv`
 
 ### Installation
