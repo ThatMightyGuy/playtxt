@@ -42,8 +42,6 @@ It basically was already pretty much done before me, but nobody made this, as fa
 
 TODO:
 
-Play/pause/skip commands
-
-Volume control
+Skip command
 
 Looping
