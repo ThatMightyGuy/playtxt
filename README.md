@@ -5,7 +5,7 @@ YouTube audio stream player...
 
 Pretty useful, if you ask me.
 
-Currently only available for Linux, but probably would work on Windows with minimal modifications.
+Currently only available for Linux, but probably would work on Windows with minimal modifications. // rectified, works now
 
 ### Dependencies
 [pip] bs4 requests
