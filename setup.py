@@ -7,6 +7,7 @@ setup(
     author_email = 'cakeislie.ilya@gmail.com',
     scripts = [
         'scripts/playtxt.py',
+        'scripts/datafolder.py',
         'scripts/mpvplayer.py',
         'scripts/helpmsg.py'
     ],
